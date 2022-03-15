@@ -12,7 +12,7 @@ export default function Portfolio() {
                     <p className={styles.ghosttext}>Sell all projects</p></h1>
                 </div>
                 <div>
-                <IoArrowForwardCircle font-size="2.5rem" color="#8A39E1">
+                <IoArrowForwardCircle fontSize="2.5rem" color="#8A39E1">
                 </IoArrowForwardCircle>
                 </div>
             </div>

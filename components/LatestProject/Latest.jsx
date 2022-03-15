@@ -8,7 +8,7 @@ export default function LatestProject() {
             <p className={styles.latestHash}>#updatedBrain</p>
             <p className={styles.latestTitle}>Latest project</p>
             </div>
-            <div><RiShareCircleLine font-size="1.8rem">
+            <div><RiShareCircleLine fontSize="1.8rem">
                 </RiShareCircleLine></div>
         </div>
     )
