@@ -1,0 +1,40 @@
+
+.containerProjects {
+    width: 100%;
+    height: 25vh;
+    background-color: #1E1F25;
+    border-radius: 0.50rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.ghosttext {
+    margin-top: .5rem;
+    font-size: 10px;
+    color: #fafafa;
+    opacity: .8
+}
+
+.hashTitle {
+    font: 12px;
+    opacity: .4;
+    font-weight: 400;
+    color: #fafafa;
+}
