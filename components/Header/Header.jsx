@@ -1,7 +1,8 @@
 import styles from './header.module.css'
 import Image from 'next/image'
 import profile from '../../public/images/profile.jpg'
-import { AiOutlineCode, AiFillGithub, AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
+import { AiOutlineCode, AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { BiCodeAlt } from "react-icons/bi";
 
 
 export default function Header() {
@@ -13,16 +14,18 @@ export default function Header() {
                 <p className={styles.profileWork}>Front-end web developer</p>
             </div>
             <div className="icon">
-                <div className={styles.iconContainer}><AiOutlineCode color="white" fontSize="1.5rem"></AiOutlineCode></div>
+                <div className={styles.iconContainer}><BiCodeAlt color="#8A39E1" fontSize="1.5rem" className={styles.animIcon}></BiCodeAlt></div>
                 <div className="description">
                     <p className={styles.profileDescription}>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text eve
+                    A dev passionate about Front-end in constant learning and willing to face the challenges of the world of technology. I&#39;m trying to teach what I know to those starting out, like me, through my Instagram page.
                     </p>
                 </div>
                 <div className={styles.socialMdia}>
-                    <div className={styles.social}> <p className={styles.socialTitle}>Github</p> < AiFillGithub fontSize="1.2rem" ></AiFillGithub></div>
-                    <div className={styles.social}><p className={styles.socialTitle}>Instagram</p> < AiFillInstagram fontSize="1.2rem" ></AiFillInstagram></div>
-                    <div className={styles.social}><p className={styles.socialTitle}>Twitter</p> < AiFillTwitterCircle fontSize="1.2rem" ></AiFillTwitterCircle></div>
+                 <a href="https://github.com/Fuadzarzar"><div className={styles.social}> <p className={styles.socialTitle}>Github</p> < AiFillGithub fontSize="1.2rem" ></AiFillGithub></div></a>
+
+                 <a href="https://www.instagram.com/aprendizdedev/"><div className={styles.social}><p className={styles.socialTitle}>Instagram</p> < AiFillInstagram fontSize="1.2rem" ></AiFillInstagram></div></a>
+
+                 <a href="https://www.linkedin.com/in/fuad-zarzar-78ab05124/"><div className={styles.social}><p className={styles.socialTitle}>LinkedIn</p> < AiFillLinkedin fontSize="1.2rem" ></AiFillLinkedin></div></a>
                 </div>
             </div>
         </div>
