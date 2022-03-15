@@ -34,3 +34,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -text-rendering: optimizeLegibility;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  color: transparent;
+}
