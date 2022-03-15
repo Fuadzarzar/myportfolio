@@ -1,20 +1,20 @@
 import styles from './portfolio.module.css'
-import { IoArrowForwardCircle } from "react-icons/io5"
-
-
+import { RiShareCircleLine } from "react-icons/ri"
 
 export default function Portfolio() {
     return (
-            <div className={styles.containerProjects}>
+            <div className={styles.container}>
                 <div className={styles.titleContainer}>
-                    <p className={styles.hashTitle}>#myprojects</p>
+                    <p className={styles.hashtag}>#myprojects</p>
                     <h1 className={styles.title}>My Projects
-                    <p className={styles.ghosttext}>Sell all projects</p></h1>
+                    <p className={styles.subtitle}>Sell all projects</p></h1>
                 </div>
-                <div>
-                <IoArrowForwardCircle fontSize="2.5rem" color="#8A39E1">
-                </IoArrowForwardCircle>
-                </div>
+
+                <a href="https://github.com/Fuadzarzar?tab=repositories">
+                    <div className={styles.iconContainer}>
+                        <RiShareCircleLine fontSize="2rem" color="#9C51E0"></RiShareCircleLine>
+                    </div>
+                </a>
             </div>
     )
 }
