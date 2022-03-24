@@ -1,7 +1,7 @@
 import styles from './header.module.css'
 import Image from 'next/image'
 import profile from '../../public/images/profile.jpg'
-import { AiOutlineCode, AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { BiCodeAlt } from "react-icons/bi";
 
 

@@ -6,9 +6,9 @@ export default function Portfolio() {
         <a href="https://github.com/Fuadzarzar?tab=repositories"> 
             <div className={styles.container}>
                 <div className={styles.titleContainer}>
-                    <p className={styles.hashtag}>#myprojects</p>
+                    <p className={styles.hashtag}>#letsbuildthefuture</p>
                     <h1 className={styles.title}>My Projects
-                    <p className={styles.subtitle}>Sell all projects</p></h1>
+                    <p className={styles.subtitle}>Sell all projects on Github</p></h1>
                 </div>            
                     <div className={styles.iconContainer}>
                         <RiShareCircleLine fontSize="2rem" color="#9C51E0"></RiShareCircleLine>

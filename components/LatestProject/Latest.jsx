@@ -3,7 +3,7 @@ import { RiShareCircleLine } from "react-icons/ri"
 
 export default function LatestProject() {
     return (
-        <a href="https://github.com/Fuadzarzar/magasortBase"> 
+        <a href="https://github.com/Fuadzarzar/megasortBase"> 
             <div className={styles.container}>
                 <div className={styles.titleContainer}>
                     <p className={styles.latestHash}>#updatedBrain</p>
