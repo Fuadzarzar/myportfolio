@@ -1,29 +1,25 @@
 import Header from '../components/Header/Header'
-import LatestProject from '../components/LatestProject/Latest'
-import styles from '../components/Header/header.module.css'
-import Portfolio from '../components/Portfolio/Portfolio'
 import Head from 'next/head'
+import styles from '../components/Main/main.module.css'
+import MainHome from '../components/Main/Main'
 
 export default function Start() {
 
     return (
-        <>
+      <div>
         <div>
             <Head>
                 <title>Fuad Zarzar - Portfolio</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
             </Head>
         </div>
         <body className={styles.body}>
                 <Header />
-            <div className={styles.shortcuts}>
-                <LatestProject />
-                < Portfolio />
-            </div>
         </body>
-        </>
+        </div>
 
     )
-
 
 }

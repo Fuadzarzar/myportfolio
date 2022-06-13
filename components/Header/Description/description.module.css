@@ -1,0 +1,29 @@
+.description__content {
+    width: 100%;
+    height: auto;
+    margin-top: 1.3rem;
+}
+
+.title__description {
+    line-height: 6rem;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.span {
+    font-weight: 700;
+    font-size: 3.6rem;
+    color: #9106C1;
+}
+
+.subtitle__description {
+    margin-top: .5rem;
+    word-wrap: break-word;
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #bfc0c0;
+    opacity: .8;
+}
+

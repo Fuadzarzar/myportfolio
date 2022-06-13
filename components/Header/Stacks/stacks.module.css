@@ -1,0 +1,55 @@
+.stack__list {
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.stack__title {
+    line-height: 6rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.stack__span {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #9106C1;
+}
+
+.stack__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icon__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon__title {
+    margin-top: 0.5rem;
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+.html__icon {
+    color: #e34c26;
+}
+.css__icon {
+    color: #3c99dc;
+}
+
+.js__icon {
+    color: #f0db4f;
+}
+
+.react__icon {
+    color: #61dbfb;
+}
+
+.next__icon {
+    color: #ffffff;
+}

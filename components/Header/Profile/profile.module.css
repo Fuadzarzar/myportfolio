@@ -1,0 +1,28 @@
+.profile__content {
+    width: 19.3rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.Img {
+   width: 3.4rem;
+}
+
+.content__profession {
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.profile__name {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+}
+
+.profile__profession {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #d9d9d9b9;
+}

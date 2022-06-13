@@ -1,0 +1,39 @@
+.social__content {
+    display: flex;
+    height: auto;
+    width: 24rem;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin: 1.8rem 0;
+}
+
+.social__follow {
+    width: auto;
+    padding: 0 1rem;
+    height: 3rem;
+    border-radius: .5rem;
+    background-color: #9106C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow__text{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: #ffffff;
+}
+
+.icon__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.25rem;
+    background-color: #202022;
+}

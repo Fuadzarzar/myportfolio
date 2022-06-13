@@ -1,0 +1,30 @@
+.text__title {
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.all__projects {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    background-color: red;
+    height: 26vh;
+    padding-bottom: 4rem;
+    flex: 1 0;
+
+}
+
+.card {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+    border-radius: 0.25rem;
+}
