@@ -26,3 +26,29 @@
     font-weight: 500;
     color: #d9d9d9b9;
 }
+
+@media screen and (min-width: 750px) {
+    .profile__content {
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .Img {
+        display: inline-block;
+        width: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile__name {
+        text-align: center;
+        font-size: 1.8rem;
+        display: block;
+    }
+
+    .profile__profession {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

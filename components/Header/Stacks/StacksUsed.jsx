@@ -4,7 +4,7 @@ import { SiJavascript, SiHtml5, SiCss3, SiReact, SiNextdotjs } from 'react-icons
 
 export default function StacksUsed() {
     return (
-        <div>
+        <div className={styles.stack__content}>
             <div>
                 <h1 className={styles.stack__title}>stacks <span className={styles.stack__span}>I use</span></h1>
             </div>

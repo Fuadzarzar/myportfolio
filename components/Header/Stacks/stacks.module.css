@@ -53,3 +53,14 @@
 .next__icon {
     color: #ffffff;
 }
+
+@media screen and (min-width: 750px) {
+    .stack__list {
+        justify-content: center;
+    }
+
+    .stack__title {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+}

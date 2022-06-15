@@ -1,7 +1,5 @@
 import Header from '../components/Header/Header'
 import Head from 'next/head'
-import styles from '../components/Main/main.module.css'
-import MainHome from '../components/Main/Main'
 
 export default function Start() {
 
@@ -15,7 +13,7 @@ export default function Start() {
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
             </Head>
         </div>
-        <body className={styles.body}>
+        <body>
                 <Header />
         </body>
         </div>

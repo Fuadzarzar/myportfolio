@@ -9,6 +9,7 @@
     font-size: 3.6rem;
     font-weight: 700;
     color: #ffffff;
+    
 }
 
 .span {
@@ -25,5 +26,17 @@
     font-weight: 500;
     color: #bfc0c0;
     opacity: .8;
+}
+
+@media screen and (min-width: 750px) {
+    .title__description {
+       text-align: center;
+    }
+    .subtitle__description {
+       text-align: center;
+       margin-inline: auto;
+       max-width: 50%;
+       font-size: 1.6rem;
+    }
 }
 

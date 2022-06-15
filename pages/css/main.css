@@ -1,6 +1,10 @@
 html, body {
     overflow-x: hidden;
     overflow: overlay;
-    padding: 0 1rem;
+    scroll-behavior: smooth;
+}
+
+html {
+    padding: 0 2rem;
 }
 

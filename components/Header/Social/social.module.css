@@ -37,3 +37,15 @@
     border-radius: 0.25rem;
     background-color: #202022;
 }
+
+@media screen and (min-width: 750px) {
+    .social__content {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .follow__text {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+}

@@ -2,6 +2,7 @@
     color: #FFFFFF;
     font-size: 2.2rem;
     font-weight: 600;
+    margin-bottom: 2rem;
 }
 
 .all__projects {
@@ -11,20 +12,93 @@
     flex-direction: column;
     gap: 2rem;
     overflow-y: scroll;
+    overflow: overlay;
     -webkit-overflow-scrolling: touch;
     width: 100%;
-    background-color: red;
-    height: 26vh;
+    height: 50vh;
     padding-bottom: 4rem;
     flex: 1 0;
-
 }
 
 .card {
     flex-grow: 0;
     flex-shrink: 0;
     width: 100%;
-    height: 10rem;
-    background-color: white;
+    height: 14rem;
+    background-color: #202022;
     border-radius: 0.25rem;
 }
+
+.card {
+    position: relative;
+
+}
+.card__content {
+    padding: 1.6rem;
+    color: #FFFFFF;
+}
+.card__title {
+    font-size: 1.6rem;
+
+}
+.card__description {
+    margin-top: .5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.card__tecnology {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    font-size: 1.6rem;
+}
+.card__arrow {
+    color: #FFFFFF;
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    font-size: 1.6rem;
+}
+.card__list {
+    display: flex;
+    gap: 1rem;
+}
+.technology {
+    font-size: 1rem;
+    padding: 0.25rem .5rem;
+    border-radius: 0.25rem;
+}
+
+.external {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.technology.javascript{
+    background-color: #f0db4f;
+    color: #202022;
+}
+
+.technology.html{
+    background-color: #e34c26;
+    color: #ffffff;
+}
+
+.technology.css{
+    background-color: #3c99dc;
+    color: #ffffff;
+}
+
+.technology.nextjs{
+    background-color: #ffffff;
+    color: #202022;
+}
+
+.technology.react{
+    background-color: #61dbfb;
+    color: #ffffff;
+}
+
